@@ -1,0 +1,63 @@
+.service {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  :global(.adm-input) {
+    min-height: 38px;
+    border-radius: 20px;
+    padding-left: 24px;
+    background: rgba(217, 217, 217, 0.2);
+  }
+  :global(.adm-input-element) {
+    font-size: 12px;
+  }
+  :global(.adm-text-area-element) {
+    font-size: 12px;
+    padding: 6px 12px;
+    padding-left: 24px;
+  }
+  :global(.adm-form-item-label) {
+    font-size: 14px;
+    line-height: 38px;
+  }
+  :global(.adm-list-item-content-prefix) {
+    width: auto;
+  }
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+  :global(.adm-text-area) {
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.2);
+  }
+  :global(.adm-list-item) { 
+    padding-left: 0;
+  }
+  .priceInput {
+    :global(.adm-input){
+      background: none;
+      padding-left: 4px;
+    }
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 20px;
+    padding-left: 24px;
+  }
+  .area {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 20px;
+    padding-left: 24px;
+    :global(.adm-input){
+      background: none;
+      padding-left: 4px;
+    }
+    .input {
+      flex: auto;
+      border: none;
+    }
+  }
+}

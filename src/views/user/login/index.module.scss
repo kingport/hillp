@@ -1,0 +1,16 @@
+.login {
+  :global(.adm-form) {
+   --border-bottom: none;
+   --border-top: none;
+   --border-inner: none;
+  }
+  :global(.adm-input) {
+    border: 0.7px solid rgba(42, 73, 72, 0.25);
+    min-height: 2rem;
+    border-radius: 6px;
+    padding-left: 0.75rem;
+  }
+  :global(.adm-input-element) {
+    font-size: 0.75rem;
+  }
+}

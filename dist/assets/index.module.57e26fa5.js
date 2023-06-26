@@ -1,0 +1,1 @@
+const t="_officialNotice_1slv6_1",o="_content_1slv6_5",s="_contentList_1slv6_8",c="_scaleFont_1slv6_12",e="_customerInfo_1slv6_16",n="_customerHeader_1slv6_23",_={officialNotice:t,content:o,contentList:s,scaleFont:c,customerInfo:e,customerHeader:n};export{_ as s};

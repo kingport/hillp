@@ -1,0 +1,20 @@
+.headerMenu {
+  transition: all 0.3s;
+  &:hover {
+    .menuName {
+      display: flex !important;
+      transition: all 0.3s;
+      font-size: 14px;
+    }
+  }
+}
+.header {
+  :global(.ant-drawer-body) {
+    padding: 0;
+  }
+  :global(.ant-drawer-content-wrapper) {
+    min-width: 500px;
+  }
+  
+}
+

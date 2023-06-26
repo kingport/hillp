@@ -1,0 +1,82 @@
+.verify {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.verifyPhone {
+  width: 100%;
+  min-height: 100vh;
+  :global(.adm-input) {
+    border: 0.7px solid rgba(42, 73, 72, 0.25);
+    min-height: 30px;
+    border-radius: 6px;
+    padding-left: 12px;
+  }
+  :global(.adm-input-element) {
+    font-size: 12px;
+  }
+  :global(.adm-form-item-label) {
+    font-size: 12px;
+  }
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  border: 0.7px solid rgba(42, 73, 72, 0.25);
+  border-radius: 6px;
+
+  .input {
+    flex: auto;
+    border: none;
+  }
+  .phoneCode {
+    border-right: 0.5px solid rgba(42, 73, 72, 0.1);
+  }
+}
+
+
+.changepwd {
+  :global(.adm-input) {
+    border: 0.7px solid rgba(42, 73, 72, 0.25);
+    min-height: 44px;
+    border-radius: 6px;
+    padding-left: 12px;
+  }
+  :global(.adm-input-element) {
+    font-size: 12px;
+  }
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+  :global(.adm-list-item) { 
+    padding-left: 0;
+  }
+  :global(.adm-form .adm-form-footer) { 
+    padding-left: 0;
+  }
+  
+  .password {
+    display: flex;
+    align-items: center;
+    border: 0.7px solid rgba(42, 73, 72, 0.25);
+    border-radius: 6px;
+    .input {
+      flex: auto;
+      border: none;
+    }
+    .eye {
+      flex: none;
+      margin-left: 8px;
+      padding: 4px;
+      cursor: pointer;
+    }
+  }
+}

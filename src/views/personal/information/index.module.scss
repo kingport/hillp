@@ -1,0 +1,160 @@
+.AddEmployeeForm {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  :global(.adm-input) {
+    min-height: 38px;
+    border-radius: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: rgba(217, 217, 217, 0.2);
+  }
+  :global(.adm-input-element) {
+    font-size: 12px;
+  }
+  :global(.adm-text-area-element) {
+    font-size: 12px;
+    padding: 6px 12px;
+    padding-left: 24px;
+  }
+  :global(.adm-form-item-label) {
+    font-size: 14px;
+    line-height: 38px;
+  }
+  :global(.adm-list-item-content-prefix) {
+    width: auto;
+    min-width: 4.25rem;
+  }
+  :global(.adm-list-item-content) {
+    padding-right: 0;
+  }
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+  :global(.adm-list-item) { 
+    padding-left: 0;    
+  }
+  :global(.adm-plain-anchor) {
+    &:active:not(.adm-list-item-disabled) {
+      background: none;
+    }
+    :global(.adm-list-item-content-main) {
+      border-radius: 6px;
+      min-height: 30px;      
+    }
+    :global(.adm-list-item-content) {
+      align-items: center;
+      
+    }
+    :global(.adm-form-item-child-position-normal) {
+      // background: rgba(217, 217, 217, 0.2);    
+      border-radius: 20px;
+    }
+    :global(.adm-list-item-content-arrow) {
+      display: none;
+    }
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 20px;
+
+    .input {
+      flex: auto;
+      border: none;
+      background: none;
+    }
+    .phoneCode {
+      border-right: 0.5px solid rgba(217, 217, 217, 0.4);
+    }
+  }
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  background: rgba(217, 217, 217, 0.2);
+  border-radius: 20px;
+  .input {
+    flex: auto;
+    border: none;
+    background: none;
+    max-width: 3.625rem;
+  }
+}
+
+
+.dineIn {
+  background: #fbfbfb;
+  border-radius: 0.7rem 0.7rem 0 0;  
+  :global(.adm-list-item-content-prefix) {
+    margin-top: 2.0rem;
+  }
+  :global(.adm-list-item) {
+    background-color: transparent;
+  }
+  :global(.adm-form-item-label) { 
+    display: flex;
+    justify-content: center;
+  }
+  :global(.adm-input) {
+    border-radius: 0.5rem;
+  }
+  .price {
+    background:rgba(217, 217, 217, 0.2);
+    border-radius: 0.5rem;
+    :global(.adm-input) {
+      background: none;
+      border-radius: 0.5rem;
+      padding-left: 0;
+    }
+  }
+  :global(.adm-plain-anchor) {
+    width: 100px;
+    :global(.adm-list-item-content-main) {
+      background:rgba(217, 217, 217, 0.2);
+      border-radius: 0.5rem;
+      padding: 6px;
+    }
+  }
+}
+
+.takeOut {
+  background: #fbfbfb;
+  border-radius: 0 0 0.7rem 0.7rem;  
+  :global(.adm-list-item-content-prefix) {
+    margin-top: 2.0rem;
+  }
+  :global(.adm-list-item) {
+    background-color: transparent;
+  }
+  :global(.adm-form-item-label) { 
+    display: flex;
+    justify-content: center;
+  }
+  :global(.adm-input) {
+    border-radius: 0.5rem;
+  }
+  .price {
+    background:rgba(217, 217, 217, 0.2);
+    border-radius: 0.5rem;
+    :global(.adm-input) {
+      background: none;
+      border-radius: 0.5rem;
+      padding-left: 0;
+    }
+  }
+  :global(.adm-plain-anchor) {
+    width: 100px;
+    :global(.adm-list-item-content-main) {
+      background:rgba(217, 217, 217, 0.2);
+      border-radius: 0.5rem;
+      padding: 6px;
+    }
+  }
+}

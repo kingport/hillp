@@ -1,0 +1,13 @@
+.menu {
+  transition: all 0.3s;
+  &:hover {
+    .menuName {
+      display: flex !important;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.menus {
+  height: calc(100vh - 60px);
+}

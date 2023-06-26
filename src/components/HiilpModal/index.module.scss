@@ -1,0 +1,56 @@
+:global(.adm-modal-title) {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+:global(.adm-center-popup-close) {
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+:global(.adm-modal-content) {
+  padding-bottom: 0;
+  margin: 24px 0;
+}
+
+:global(.adm-modal-footer) {
+  flex-direction: row;
+  justify-content: center;
+
+  &:global(.adm-space) {
+    --gap-vertical: unset;
+  }
+
+  :global(.adm-space-item) {
+    height: 25px;
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  :global(.adm-modal-button) {
+    height: 25px;
+    width: 75px;
+    border-radius: 15px;
+    font-size: 12px;
+    background: #a9a9a933;
+    color: #2a4948;
+
+    &:global(.adm-modal-button-primary) {
+      padding-top: 0;
+      padding-bottom: 0;
+      background: #2a4948;
+      color: #fff;
+    }
+
+    &:global(.adm-button-danger) {
+      background: #8f4c4c;
+      color: #fff;
+    }
+  }
+}

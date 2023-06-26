@@ -1,0 +1,10 @@
+.pcdataBase {
+  :global(.ant-tabs-nav) {
+    &::before {
+      content: none;
+    }
+  }
+  :global(.ant-tabs-nav-wrap) {
+    justify-content: center;
+  }
+}

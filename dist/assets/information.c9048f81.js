@@ -1,0 +1,1 @@
+var i=Object.defineProperty;var e=(s,t,o)=>t in s?i(s,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):s[t]=o;var a=(s,t,o)=>(e(s,typeof t!="symbol"?t+"":t,o),o);import{Z as r}from"./index.5670e6e0.js";class m{}a(m,"getInformationList",t=>r.post("/api/information/select",t));export{m as I};

@@ -1,0 +1,24 @@
+.htmlGroup {
+    max-width: 640px;
+    margin: 0 auto;
+    img {
+        width: 100%;
+    }
+}
+
+.emptyGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.emptyImage {
+    width: 120px;
+    height: 120px;
+}
+.emptyText {
+    font-size: 16px;
+    color: #999;
+    margin-top: 8px;
+}

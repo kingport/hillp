@@ -1,0 +1,78 @@
+.customer {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  :global(.adm-input) {
+    min-height: 38px;
+    border-radius: 20px;
+    padding-left: 12px;
+    background: rgba(217, 217, 217, 0.2);
+  }
+  :global(.adm-input-element) {
+    font-size: 12px;
+  }
+  :global(.adm-text-area-element) {
+    font-size: 12px;
+    padding: 6px 12px;
+    padding-left: 24px;
+  }
+  :global(.adm-form-item-label) {
+    font-size: 14px;
+    line-height: 38px;
+  }
+  :global(.adm-list-item-content-prefix) {
+    width: auto;
+  }
+  :global(.adm-list-item-content) {
+    padding-right: 0;
+  }
+  
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+  :global(.adm-list-item) { 
+    padding-left: 0;
+  }
+  :global(.adm-text-area) {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 10px;
+    textarea {
+      height: 80px;
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+}
+
+.phone {
+  .area {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 20px;
+  }
+  :global(.adm-list-item-content-main) {
+    padding: 0;
+  }
+  :global(.adm-input) {
+    background: transparent;
+  }
+  :global(.adm-list-item) {
+    background: transparent;
+  }
+  :global(.adm-list-item-description) {
+    position: absolute;
+    bottom: -20px;
+    z-index: 9;
+  }
+}
+
+.address {
+  :global(.adm-form-item-child-inner) {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 20px;
+  }
+  :global(.adm-input) {
+    background: none;
+  }
+}

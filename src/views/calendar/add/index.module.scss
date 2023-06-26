@@ -1,0 +1,203 @@
+.AddBreakForm,
+.AddOrderForm {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fff;
+
+  .halfFormItem {
+    width: 50%;
+    display: inline-block;
+
+    &:nth-child(odd) {
+      padding-right: 16px;
+    }
+    &:nth-child(even) {
+      padding-left: 16px;
+    }
+  }
+
+  :global(.adm-list-body) {
+    border-style: none;
+  }
+
+  :global(.adm-list-item) {
+    width: 100%;
+    padding-left: 0;
+    display: inline-block;
+
+    &.halfFormItem {
+      width: 50%;
+    }
+
+    &.prefixInputItem {
+      :global(.adm-list-item-content-main) {
+        :global(.adm-form-item-child-inner) {
+          padding-left: 24px;
+        }
+      }
+    }
+
+    &.noLabelFormItem {
+      margin-top: 12px;
+    }
+
+    &.noBgFormItem {
+      :global(.adm-form-item-child-inner) {
+        background-color: #fff;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  :global(.adm-form-item-required-asterisk) {
+    left: unset;
+    bottom: 0;
+    top: -1px;
+    color: #1f1f1f;
+  }
+
+  :global(.adm-list-item-content) {
+    border-top-style: none;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  :global(.adm-list-item-content-prefix) {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 8px;
+  }
+
+  :global(.adm-list-item-content-main) {
+    padding: 0;
+    min-height: 45px;
+    font-size: 14px;
+    color: rgba(42, 73, 72, 0.8);
+
+    :global(.adm-form-item-child-inner) {
+      border-radius: 20px;
+      background-color: rgba(42, 73, 72, 0.05);
+      padding: 12px 8px;
+      overflow: hidden;
+    }
+  }
+
+  :global(.adm-list-item-content-arrow) {
+    display: none;
+  }
+
+  :global(.adm-checkbox-icon) {
+    width: 12px;
+    height: 12px;
+  }
+
+  :global(.adm-checkbox-content) {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 16px;
+    color: #1f1f1f;
+  }
+
+  :global(.adm-input) {
+    min-height: 21px;
+
+    // 有前缀符号的情况
+    &:not(:first-child) {
+      width: unset;
+      display: inline-block;
+    }
+  }
+
+  :global(.adm-input-element) {
+    font-size: 14px;
+    color: rgba(42, 73, 72, 0.8);
+  }
+
+  :global(.adm-text-area) {
+    textarea {
+      height: 80px;
+      padding: 0 20px;
+      font-size: 14px;
+    }
+  }
+}
+
+:global(a.adm-list-item:active:not(.adm-list-item-disabled)) {
+  background-color: transparent;
+}
+
+.BorderedSelectItem {
+  border-bottom: 1px solid rgba(42, 73, 72, 0.6);
+}
+
+.CustomerAvatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1.5px solid #c8e3e2;
+
+  & > img {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  & > div {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: rgba(200, 227, 226, 0.3);
+
+    // 以下仅用于演示
+    font-size: 24px;
+    color: #c8e3e2;
+    text-align: center;
+    line-height: 39px;
+  }
+}
+
+:global(.ant-picker) {
+  border-radius: 24px;
+  background-color: #f2f5f5;
+}
+:global(.ant-input-wrapper) {
+  border-radius: 24px;
+  background-color: #f2f5f5;   
+}
+.price {
+  :global(.ant-input) {
+    border-radius: 0 24px 24px 0;
+    background-color: #f2f5f5;   
+  }
+}
+.custname {
+  :global(.ant-input) {
+    border-radius:  24px;
+    background-color: #f2f5f5;   
+  }
+}
+.area {
+  //
+  :global(textarea) {
+    background-color: #f2f5f5;
+  }
+}
+:global(.ant-input-group-addon) {
+  border-radius: 24px 0 0 24px !important;
+  background-color: #f2f5f5;
+  border-color: transparent !important;
+}
+:global(.ant-picker) {
+  border-color: transparent;
+}
+:global(.ant-input) {
+  border-color: transparent;
+}
+:global(.ant-select-selector) {
+  border-radius: 24px;
+  background-color: #f2f5f5 !important;
+}

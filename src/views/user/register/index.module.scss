@@ -1,0 +1,116 @@
+.register {
+  width: 100%;
+  min-height: 100vh;
+  :global(.adm-input) {
+    border: 0.7px solid rgba(42, 73, 72, 0.25);
+    min-height: 1.8rem;
+    border-radius: 0.325rem;
+    padding-left: 0.75rem;
+  }
+  :global(.adm-input-element) {
+    font-size: 0.75rem;
+  }
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+  :global(.adm-list-item-content-main) {
+    padding: 20px 0;
+    padding-bottom: 0;
+  }
+  
+  .icon {
+    border-right: 0.5px solid #F5F5F5 ;
+  }
+  :global(.adm-plain-anchor) {
+    &:active:not(.adm-list-item-disabled) {
+      background: none;
+    }
+    :global(.adm-list-item-content-main) {
+      border-radius: 0.325rem;
+      min-height: 1.8rem;     
+    }
+    :global(.adm-list-item-content) {
+      align-items: center;
+    }
+    :global(.adm-list-item-content-arrow) {
+      display: none;
+    }
+  }
+}
+
+.password {
+  display: flex;
+  align-items: center;
+  border: 0.7px solid rgba(42, 73, 72, 0.25);
+  border-radius: 6px;
+  .input {
+    flex: auto;
+    border: none;
+  }
+  .eye {
+    flex: none;
+    margin-left: 8px;
+    padding: 4px;
+    cursor: pointer;
+  }
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  border: 0.7px solid rgba(42, 73, 72, 0.25);
+  border-radius: 6px;
+
+  .input {
+    flex: auto;
+    border: none;
+  }
+  .phoneCode {
+    border-right: 0.5px solid rgba(42, 73, 72, 0.1);
+  }
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  border: 0.7px solid rgba(42, 73, 72, 0.25);
+  border-radius: 6px;
+  .input {
+    flex: auto;
+    border: none;
+  }
+}
+
+.MerchantsName {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  :global(.adm-input) {
+    border: 0.7px solid rgba(42, 73, 72, 0.25);
+    min-height: 40px;
+    border-radius: 6px;
+    padding-left: 12px;
+  }
+  :global(.adm-input-element) {
+    font-size: 12px;
+  }
+  :global(.adm-form) {
+    --border-bottom: none;
+    --border-top: none;
+    --border-inner: none;
+  }
+}
+
+.success {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+
+:global(.ant-select-selector) {
+  background: #ffffff !important;
+  border-radius: 4px !important;
+  border: 0.7px solid rgba(42, 73, 72, 0.25) !important;
+}

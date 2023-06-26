@@ -1,0 +1,1 @@
+var r=Object.defineProperty;var o=(a,s,e)=>s in a?r(a,s,{enumerable:!0,configurable:!0,writable:!0,value:e}):a[s]=e;var t=(a,s,e)=>(o(a,typeof s!="symbol"?s+"":s,e),e);import{Z as i}from"./index.5670e6e0.js";class p{}t(p,"getShareInfo",s=>i.post("/api/share/index",s));export{p as S};

@@ -1,0 +1,67 @@
+.tabs {
+  p {
+    position: relative;
+    padding-bottom: 4px;
+  }
+  .active {
+    &::after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 3px;
+      border-radius: 20px;
+      background:#2A4948;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+.order {
+  :global(.adm-search-bar) {
+    flex: 1;
+    margin-right: 10px;
+  }
+  :global(.adm-search-bar .adm-search-bar-input-box) {
+    background: transparent;
+  }
+}
+
+
+.searchinput {
+  background: rgba(42, 73, 72, 0.05);
+  border-radius: 10px;  
+  display: flex;
+  align-items: center;
+}
+
+.exampleThumb {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.exampleTrack {
+  background-color:#2A4948;
+  height: 6px;
+}
+
+.horizontalSlider {
+  background: #2A4948;
+  height: 6px;
+}
+
+
+.calendarCustom {
+  :global(.adm-calendar-header) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  :global(.adm-calendar-title) {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+  }
+}
+

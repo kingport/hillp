@@ -1,0 +1,35 @@
+.FooterBar {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px #dedede;
+  border-radius: 12px 12px 0px 0px;
+
+  :global(.adm-tab-bar-wrap) {
+    min-height: 76px;
+  }
+  :global(.adm-tab-bar-item-title-with-icon) {
+    margin-top: 10px;
+  }
+  :global(.adm-tab-bar-item) {
+    color: #e4e4e4;
+  }
+  :global(.adm-tab-bar-item-active) {
+    color: #2a4948;
+  }
+  :global(.adm-tab-bar-item-title) {
+    font-size: 12px;
+  }
+  :global(.adm-badge-dot) {
+    width: 6px;
+    height: 6px;
+    min-width: 6px;
+  }
+}
+
+.barIcon {
+  width: 24px;
+  height: 24px;
+}

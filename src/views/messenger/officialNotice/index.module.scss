@@ -1,0 +1,42 @@
+.officialNotice {
+  width: 100%;
+  min-height: 100vh;
+
+  .content {
+    min-height: calc(100vh - 100px);
+  }
+
+  .contentList {
+    min-height: 100vh;
+    padding: 1.25rem 1.875rem;
+  }
+
+  .scaleFont {
+    transform: scale(0.8);
+  }
+}
+
+.customerInfo {
+  background-color: #2A4948;
+  position: relative;
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%;
+
+  .customerHeader {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    &::after {
+      content: '';
+      width: 120%;
+      height: 100%;
+      position: absolute;
+      left: -10%;
+      top: 0;
+      border-radius: 0 0 50% 50%;
+      background: #2A4948;
+    }
+  }
+}
+

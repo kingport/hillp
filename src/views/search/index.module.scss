@@ -1,0 +1,14 @@
+.cardContentItem {
+  &:not(last-child) {
+    margin-bottom: 10px;
+  }
+
+  .cardContentTags {
+    &:not(last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+}
+.appointmentItem {
+  cursor: pointer;
+}

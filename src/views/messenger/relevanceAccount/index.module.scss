@@ -1,0 +1,14 @@
+.relevanceAccount {
+  .content {
+    min-height: calc(100vh - 100px);
+  }
+
+  .contentList {
+    min-height: 100vh;
+    padding: 1.25rem 1.875rem;
+  }
+
+  .scaleFont {
+    transform: scale(0.8);
+  }
+}

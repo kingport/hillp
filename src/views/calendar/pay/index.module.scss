@@ -1,0 +1,209 @@
+.CalendarPay,
+.CalendarPayConfirm {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(249, 250, 250);
+
+  .PayCard {
+    box-shadow: 0px 4px 10px 0px #00000008;
+    border-radius: 0 0 30px 30px;
+  }
+
+  .BorderedViewItem {
+    width: 100%;
+    padding: 12px 0;
+    color: #777;
+
+    &:not(:last-child) {
+      border-bottom: 0.5px solid #a1a1a1;
+    }
+  }
+
+  .FormItemWrapper {
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .FormItemWithPrefix {
+    position: relative;
+
+    & > span {
+      position: absolute;
+      top: 9px;
+      left: 8px;
+      z-index: 1;
+    }
+
+    :global(.adm-list-item-content-main) {
+      :global(.adm-form-item-child-inner) {
+        padding-left: 24px;
+      }
+    }
+  }
+
+  .LeftItem {
+    width: 48%;
+  }
+
+  .RightItem {
+    width: 52%;
+  }
+
+  :global(.adm-list-body) {
+    overflow: visible;
+    border-style: none;
+    background-color: transparent;
+  }
+
+  :global(.adm-list-item) {
+    background-color: transparent;
+    padding-left: 0;
+  }
+
+  :global(.adm-list-item-content) {
+    border-top-style: none;
+    padding-right: 0;
+  }
+
+  :global(.adm-list-item-content-main) {
+    padding: 0;
+    min-height: 36px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+
+    :global(.adm-form-item-child-inner) {
+      border-radius: 20px;
+      border: 0.5px solid rgba(42, 73, 72, 0.2);
+      background-color: #fff;
+      padding: 9px 8px;
+    }
+  }
+
+  :global(.adm-list-item-content-arrow) {
+    display: none;
+  }
+
+  :global(.adm-input) {
+    min-height: 18px;
+  }
+
+  :global(.adm-input-element) {
+    font-size: 12px;
+    color: rgba(42, 73, 72, 0.8);
+  }
+}
+
+.CalendarPayConfirm {
+  background-color: #fff;
+}
+
+.PcCalendarPay,.PcCalendarPayConfirm {
+  width: 100vw;
+  background-color: rgb(249, 250, 250);
+  height: calc(100vh - 60px);
+  .PayCard {
+    box-shadow: 0px 4px 10px 0px #00000008;
+    border-radius: 30px;
+  }
+
+  .BorderedViewItem {
+    width: 100%;
+    padding: 12px 0;
+    color: #777;
+
+    &:not(:last-child) {
+      border-bottom: 0.5px solid #a1a1a1;
+    }
+  }
+
+  .FormItemWrapper {
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .FormItemWithPrefix {
+    position: relative;
+
+    & > span {
+      position: absolute;
+      top: 9px;
+      left: 8px;
+      z-index: 1;
+    }
+
+    :global(.adm-list-item-content-main) {
+      :global(.adm-form-item-child-inner) {
+        padding-left: 24px;
+      }
+    }
+  }
+
+  :global(.ant-input) {
+    border: none;
+    background: transparent;
+  }
+
+  .LeftItem {
+    width: 48%;
+  }
+
+  .RightItem {
+    width: 52%;
+  }
+
+  :global(.adm-list-body) {
+    overflow: visible;
+    border-style: none;
+    background-color: transparent;
+  }
+
+  :global(.adm-list-item) {
+    background-color: transparent;
+    padding-left: 0;
+  }
+
+  :global(.adm-list-item-content) {
+    border-top-style: none;
+    padding-right: 0;
+  }
+
+  :global(.adm-list-item-content-main) {
+    padding: 0;
+    min-height: 36px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+
+    :global(.adm-form-item-child-inner) {
+      border-radius: 20px;
+      border: 0.5px solid rgba(42, 73, 72, 0.2);
+      // background-color: #fff;
+      // padding: 9px 8px;
+    }
+  }
+
+  :global(.adm-list-item-content-arrow) {
+    display: none;
+  }
+
+  :global(.adm-input) {
+    min-height: 18px;
+  }
+
+  :global(.adm-input-element) {
+    font-size: 12px;
+    color: rgba(42, 73, 72, 0.8);
+  }
+}
+:global(.ant-select-selector) {
+  background: #f5f6f6 !important;
+  border-radius: 24px !important;
+}
+:global(.ant-input) {
+  border-radius: 0 24px 24px 0!important;
+  background: #f5f6f6;
+}
+:global(.ant-input-group-addon) {
+  border-radius: 24px 0 0 24px !important;
+}
